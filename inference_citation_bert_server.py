@@ -9,7 +9,7 @@ from utils.logger import ColoredLogger
 from dataset import get_bert_dataset
 from models.models import CitationBert
 
-server_address = "/tmp/test-socket"
+server_address = "/tmp/oh_my_papers"
 
 try:
     os.unlink(server_address)
